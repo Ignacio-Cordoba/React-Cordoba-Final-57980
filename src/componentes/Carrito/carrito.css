@@ -70,3 +70,8 @@
     width: fit-content;
     height: fit-content;
   }
+
+  .imagen-producto-carrito{
+    width: 350px;
+    height: 200px;
+  }

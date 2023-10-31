@@ -14,7 +14,7 @@ export const Carrito = () => {
       {
         carrito.map((prod) => (
           <div className='div-carrito' key={prod.id}>
-            <p> <img className="imagen-producto" src={prod.imagen} alt={prod.title} /></p>
+            <p> <img className="imagen-producto-carrito" src={prod.imagen} alt={prod.title} /></p>
             <h2 className='nombre-carrito'>{prod.nombre}</h2>
             <p className='p-carrito'>Precio unidad: {prod.precio}</p>
             <p className='p-carrito'>Precio Total: {prod.precio * prod.quantity}</p>
